@@ -1,24 +1,20 @@
-function classVehicle(input) {
-    
+function classVehicle() {
+
     class Vehicle {
-        constructor(type, model, parts, fuel, drive) {
+        constructor(type, model, parts, fuel) {
             this.type = type,
             this.model = model,
-            this.parts = parts,
-            this.fuel = fuel;            
+            this.parts = {...parts, quality: parts.engine * parts.power},
+            this.fuel = Number(fuel)
         }
         
-        drive(fuelLoss) {() => fuel -= fuelLoss};
-    } 
-    
-    
-}
+        drive(x) { this.fuel -= x };
+    }
 
-classVehicle(const Vehicle = result;
-
-    let parts = {engine: 6, power: 100};
+    let parts = { engine: 6, power: 100 };
     let vehicle = new Vehicle('a', 'b', parts, 200);
     vehicle.drive(100);
-    
-    expect(vehicle.fuel).to.equal(100);
-    expect(vehicle.parts.quality).to.equal(600););
+
+    console.log(vehicle);
+}
+classVehicle()
