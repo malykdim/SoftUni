@@ -32,7 +32,7 @@ function bitcoinMining(shift){
         index++;
     }
     console.log(`Bought bitcoins: ${bitcoinsBought}`);  
-    if (bitcoinsBought > 1) {
+    if (bitcoinsBought >= 1) {
         console.log(`Day of the first purchased bitcoin: ${dayOfFirstPurchase}`);
     }       
     console.log(`Left money: ${money.toFixed(2)} lv.`);
