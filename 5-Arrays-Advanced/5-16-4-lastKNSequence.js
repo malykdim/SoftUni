@@ -1,50 +1,34 @@
-/* function lastKNSequence(n, k) {
-    let seq = [1];
-    for (let current = 1; current < n; current++) {
-        let start = Math.max(0, current-k);
-        let end = current-1;
+function lastKNSequence(n, k) {
+    let result = [1];
+    for (let i = 1; i < n; i++) {
+        let lastK = result.slice(-k);
         let sum = 0;
-        for (let i = start; i < end; i++) {
-            sum += seq[i];            
+        for (let num of lastK) {
+            sum += num;
         }
-        seq[current] = sum;        
+        result.push(sum);
     }
-    console.log(seq.join(' '));
-}
-// ?????? */
+    console.log(result.join(' '));
+} 
+// 100/100 Victor
+
 lastKNSequence(6, 3);
 lastKNSequence(8, 2);
 
 // function lastKNSequence(n, k) {
-//     let result = [1];
-//     // repeat loop n-times
-//     for (let i = 1; i < n; i++) {
-        //--calculate current element as sum of previous k elements
-//         let lastK = result.slice(-k);
-//         let sum = 0;
-//         for (let num of lastK) {
-//             sum += num;
+//         let result = [1];
+//         for (let i = 1; i < n; i++) {
+//             let current = sumLastK(result, k);
+//             result.push(current);
 //         }
-//         //--store values in array
-//         result.push(sum);
-//     }
-//     console.log(result.join(' '));
-// } // 100/100 Victor
-
-function lastKNSequence(n, k) {
-        let result = [1];
-        for (let i = 1; i < n; i++) {
-            let current = sumLastK(result, k);
-            result.push(current);
-        }
-        console.log(result.join(' '));
+//         console.log(result.join(' '));
         
-        function sumLastK(arr, k) {
-            let lastK = arr.slice(-k);
-            let sum = 0;
-            for (let num of lastK) {
-                sum += num;
-            }
-            return sum;
-        }
-    } 
+//         function sumLastK(arr, k) {
+//             let lastK = arr.slice(-k);
+//             let sum = 0;
+//             for (let num of lastK) {
+//                 sum += num;
+//             }
+//             return sum;
+//         }
+//     } 
