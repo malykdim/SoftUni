@@ -25,18 +25,6 @@ function songs(arr) {
         filtered.forEach((i) => console.log(i.name));
     }
 }
-/* function songs(arr) {
-    let totalSongs = arr.shift();
-    let type = arr.pop();
-    for(let song = 0; song < totalSongs; song++) {
-        let tokens = arr[song].split('_');
-        let [typeList, name, time] = tokens;
-        
-        if (typeList === type || type === 'all') {
-            console.log(name);
-        } 
-    }
-} */
 
 songs([3,
     'favourite_DownTown_3:14',
