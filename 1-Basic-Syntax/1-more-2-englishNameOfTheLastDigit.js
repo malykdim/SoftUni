@@ -16,5 +16,3 @@ function lastNumber(number){
 lastNumber(512);
 lastNumber(1);
 lastNumber(1643);
-
-//ok
