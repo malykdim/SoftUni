@@ -13,8 +13,7 @@ function ages(age){
         console.log('out of bounds');
     }
 }
-ages(20);//100/100
 
-// ot sche
-// if (age < 0)
-// else if (age < 2)...
+ages(20);
+
+//100/100
