@@ -5,4 +5,7 @@ function excellentGrade(grade){
         console.log("Not excellent");
     }
 }
-excellentGrade(5.50);//100/100
+
+excellentGrade(5.50);
+
+//100/100
