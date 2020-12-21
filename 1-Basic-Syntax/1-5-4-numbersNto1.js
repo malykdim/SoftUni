@@ -4,4 +4,7 @@ function numbersNto1(n){
         n--;
     }
 }
-numbersNto1(5);//100/100
+
+numbersNto1(5);
+
+//100/100
