@@ -2,12 +2,13 @@ function rounding(num, round){
     if (round > 15){
         round = 15;
     }
-    num = num.toFixed(round); // returns string
-    num = parseFloat(num); // receives string as parameter
+    num = num.toFixed(round); 
+    num = parseFloat(num); 
     console.log(num);
 }
-rounding(3.1415926535897932384626433832795,2); // 3.14
-rounding(10.5,3); // 10.5
+
+rounding(3.1415926535897932384626433832795,2); 
+rounding(10.5,3); 
 
 /* 
 Write a JS function that rounds numbers to specific precision.
