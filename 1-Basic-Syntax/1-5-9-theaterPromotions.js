@@ -21,4 +21,7 @@ function theaterPromotions(typeOfDay, age){
         console.log('Error!')
     }
 }
-theaterPromotions('Weekday', 42);//100/100
+
+theaterPromotions('Weekday', 42);
+
+//100/100
