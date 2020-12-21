@@ -5,5 +5,5 @@ function nextDay(year, month, day){
     return nextDate.getFullYear() + "-" + (nextDate.getMonth() + 1)
         +  '-' + nextDate.getDate();
 }
-console.log(nextDay(2016, 9, 30));
 
+console.log(nextDay(2016, 9, 30));
