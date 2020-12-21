@@ -8,4 +8,7 @@ function solve(input){
         default: console.log('unknown'); break;
     }
 }
-solve('Germany');//100/100
+
+solve('Germany');
+
+//100/100
