@@ -3,4 +3,7 @@ function numbersMtoN(m, n){
         console.log(i);
     } 
 }
-numbersMtoN(6, 2);//100/100
+
+numbersMtoN(6, 2);
+
+//100/100
