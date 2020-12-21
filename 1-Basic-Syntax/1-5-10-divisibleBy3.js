@@ -5,4 +5,7 @@ function divisibleBy3(){
         }
     }
 }
-divisibleBy3();//100/100
+
+divisibleBy3();
+
+//100/100
