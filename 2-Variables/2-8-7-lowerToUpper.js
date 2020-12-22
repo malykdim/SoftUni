@@ -7,5 +7,6 @@ function lowerToUpper(letter) {
         console.log('lower-case');
     }
 }
+
 lowerToUpper('L');
 lowerToUpper('f');
