@@ -1,21 +1,22 @@
 function spiceMustFlow(startingYield) {
-let totalSpice = 0;
-const feed = 26;
-let days = 0;
-while (startingYield >= 100) {
-    totalSpice += startingYield;
-    if (totalSpice >= feed) {
-        totalSpice -= feed;
+    let totalSpice = 0;
+    const feed = 26;
+    let days = 0;
+    while (startingYield >= 100) {
+        totalSpice += startingYield;
+        if (totalSpice >= feed) {
+            totalSpice -= feed;
+        }
+        startingYield -= 10;   
+        days++;
+        if (startingYield < 100 && totalSpice >= feed) {
+            totalSpice -= feed;
+            break;
+        }
     }
-    startingYield -= 10;   
-    days++;
-    if (startingYield < 100 && totalSpice >= feed) {
-        totalSpice -= feed;
-        break;
-    }
-}
-console.log(days); 
-console.log(totalSpice); 
+    
+    console.log(days); 
+    console.log(totalSpice); 
 }
 
 spiceMustFlow(111);
