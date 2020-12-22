@@ -6,8 +6,10 @@ function biggestOfThreeNumbers(num1, num2, num3) {
                 } else if (num3 >= num1 && num3 >= num2) {
                     console.log(num3);
                 }
-}            
-biggestOfThreeNumbers(-2, 7, 3); // 7
-biggestOfThreeNumbers(130, 5, 99); // 130
-biggestOfThreeNumbers(43, 43.2, 43.1); // 43.2
+}      
+
+biggestOfThreeNumbers(-2, 7, 3); 
+biggestOfThreeNumbers(130, 5, 99); 
+biggestOfThreeNumbers(43, 43.2, 43.1); 
+
 // 100/100
