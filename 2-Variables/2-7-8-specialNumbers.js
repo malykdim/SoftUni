@@ -14,4 +14,5 @@ function specialNumbers(num) {
         sum = 0;
     }
 }
+
 specialNumbers(15);
