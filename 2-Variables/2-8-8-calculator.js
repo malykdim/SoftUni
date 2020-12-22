@@ -8,5 +8,6 @@ function calculator(x, operator, y) {
     }
     console.log(result.toFixed(2));
 }
+
 calculator(5, '+', 10);
 calculator(25.5, '-', 3);
