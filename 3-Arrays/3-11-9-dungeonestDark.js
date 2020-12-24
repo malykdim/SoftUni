@@ -45,6 +45,7 @@ function dungeonestDark(input) {
 
 dungeonestDark(['rat 10|bat 20|potion 10|rat 10|chest 100|boss 70|chest 1000']);
 dungeonestDark(['cat 10|potion 30|orc 10|chest 10|snake 25|chest 110']);
+
 /* 
 You have initial health 100 and initial coins 0. 
 You will be given a string, representing the dungeons rooms. Each room is separated with '|' (vertical bar): "room1|room2|room3…"
