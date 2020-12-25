@@ -7,6 +7,8 @@ function repeatString(str, n) {
 
     return result;
 }
-// 100/100
+
 repeatString('abc', 3);
 repeatString('String', 2);
+
+// 100/100
