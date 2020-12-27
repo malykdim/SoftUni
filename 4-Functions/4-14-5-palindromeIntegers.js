@@ -20,5 +20,5 @@ function palindrome(arr) {
 
 // 100/100 /* Deni */
 
-console.log(palindrome([123, 323, 421, 121])); // false true false true
-console.log(palindrome([32, 2, 232, 1010])); // false true true false
+console.log(palindrome([123, 323, 421, 121])); 
+console.log(palindrome([32, 2, 232, 1010])); 
