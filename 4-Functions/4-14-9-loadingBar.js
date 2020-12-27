@@ -14,7 +14,9 @@ function loadingBar(num) {
         console.log(`Still loading...`);
     }
 }
+
 // Deni 100/100
+
 loadingBar(30);
 loadingBar(50);
 loadingBar(100);
