@@ -6,6 +6,7 @@ function oddAndEvenSum(num) {
             sumEven += Number(digit);
         } 
     }
+    
     let str = num.toString();
     let digit = 0;
     let sumOdd = 0;
@@ -14,15 +15,15 @@ function oddAndEvenSum(num) {
         digit = str[i];
         oddOrEven(digit);                
     }
+    
     console.log(`Odd sum = ${sumOdd}, Even sum = ${sumEven}`);
 }
-// 100/100 - moe
-oddAndEvenSum(1000435); // 9/4
-oddAndEvenSum(3495892137259234); // 54/22
 
+// 100/100
 
-/* Deni */
-/* 
+oddAndEvenSum(1000435); 
+oddAndEvenSum(3495892137259234);
+
 function oddEvenSum(n) {
     let arr = String(n).split(''); 
     let sumOdd = 0;
@@ -36,8 +37,9 @@ function oddEvenSum(n) {
         }
         
     }
+    
     return `Odd sum = ${sumOdd}, Even sum = ${sumEven}`;
 }
 
-console.log(oddEvenSum(1000435));
- */
+//  100/100 // Deni
+
