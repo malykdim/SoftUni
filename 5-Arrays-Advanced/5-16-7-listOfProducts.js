@@ -4,5 +4,7 @@ function listOfProducts(array) {
         console.log(`${i+1}. ${sorted[i]}`);
     }
 }
+
 // 100/100
+
 listOfProducts(["Potatoes", "Tomatoes", "Onions", "Apples"]);
