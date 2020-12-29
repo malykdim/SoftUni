@@ -27,13 +27,14 @@ function houseParty(arr) {
         console.log(element);
     });
 }
+
 houseParty(['Allie is going!',
 'George is going!',
 'John is not going!',
 'George is not going!']); 
 
-/* houseParty(['Tom is going!',
+houseParty(['Tom is going!',
 'Annie is going!',
 'Tom is going!',
 'Garry is going!',
-'Jerry is going!']); */
+'Jerry is going!']);
