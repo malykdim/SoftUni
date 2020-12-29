@@ -17,5 +17,7 @@ function sorting(arr) {
     }
     console.log(output.join(' '));
 }
+
 // 100/100 Miro
+
 sorting([1, 21, 3, 52, 69, 63, 31, 2, 18, 94]); // 94 1 69 2 63 3 52 18 31 21
