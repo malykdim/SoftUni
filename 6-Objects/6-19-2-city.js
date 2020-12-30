@@ -3,7 +3,9 @@ function cityInfo(city) {
         console.log(`${key} -> ${city[key]}`);
     }
 }
+
 // 100/100
+
 cityInfo({
     name: "Sofia",
     area: 492,
@@ -12,11 +14,12 @@ cityInfo({
     postCode: "1000"
 });
 
-
-/* function cityInfo(city) {
+function cityInfo(city) {
     let keys = Object.keys(city);
     for (const key of keys) {
         let value = city[key];
         console.log(`${key} -> ${value}`);
     }
-} */
+}
+
+// 100/100
