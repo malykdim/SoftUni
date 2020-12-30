@@ -5,7 +5,9 @@ function convertToObject(str) {
         console.log(`${key}: ${person[key]}`);
     }
 }
+
 // 100/100
+
 convertToObject('{"name": "George", "age": 40, "town": "Sofia"}');
 
 /* 
