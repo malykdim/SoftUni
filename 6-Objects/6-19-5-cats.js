@@ -13,12 +13,7 @@ function cats(arrCats) {
         caT.meow();
     }
 }
-// 100/100
-cats(['Mellow 2', 'Tom 5']);
 
-/* function cats(arrCats) {
-    for (let cat of arrCats) {
-        let [name, age] = cat.split(' ');
-        console.log(`${name}, age ${age} says Meow`);
-    }
-} */
+// 100/100
+
+cats(['Mellow 2', 'Tom 5']);
