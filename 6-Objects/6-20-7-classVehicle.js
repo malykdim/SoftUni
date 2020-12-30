@@ -17,4 +17,5 @@ function classVehicle() {
 
     console.log(vehicle);
 }
-classVehicle()
+
+classVehicle();
