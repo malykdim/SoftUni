@@ -22,13 +22,16 @@ function movies(arr) {
             }
         }
     }
+    
     movies.forEach(movie => {
         if (movie.name && movie.director && movie.date) {
             console.log(JSON.stringify(movie));
         }
     })
 }
+
 // 100/100
+
 movies([
     'addMovie Fast and Furious',
     'addMovie Godfather',
