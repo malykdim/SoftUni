@@ -8,7 +8,9 @@ function phoneBook(input) {
     for (let name in phonebook) {
         console.log(`${name} -> ${phonebook[name]}`);
     }
-} // 100/100
+} 
+
+// 100/100
 
 phoneBook(['Tim 0834212554',
 'Peter 0877547887',
