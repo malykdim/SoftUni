@@ -23,7 +23,9 @@ function neighborhood(input) {
         }
     }
 }
+
 // 100/100
+
 neighborhood(['Abbey Street, Herald Street, Bright Mews',
 'Bright Mews - Garry',
 'Bright Mews - Andrea',
