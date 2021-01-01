@@ -9,6 +9,7 @@ function furniture(arr) {
             total += Number(match.groups.price) * Number(match.groups.quantity);
         }
     }
+    
     result += `Total money spend: ${total.toFixed(2)}`;
     console.log(result);
 }
