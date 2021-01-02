@@ -30,7 +30,9 @@ function secretChat(arr) {
         console.log(str);
     }
 }
+
 // 100/100 Deni
+
 secretChat([
     'heVVodar!gniV',
     'ChangeAll:|:V:|:l',
