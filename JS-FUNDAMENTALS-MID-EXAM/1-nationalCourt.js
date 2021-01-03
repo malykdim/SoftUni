@@ -19,7 +19,9 @@ function nationalCourt(input) {
     }
     
     console.log(`Time needed: ${Math.ceil(time)}h.`);
-} // 100/100
+} 
+
+// 100/100
 
 nationalCourt([ '5', '6', '4', '20' ]);
 nationalCourt([ '1', '2', '3', '45' ]);
