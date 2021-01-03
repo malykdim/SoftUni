@@ -21,6 +21,7 @@ function bonusScoringSystem(input) {
     console.log('Max Bonus: ' + Math.ceil(maxBonus) + '.');
     console.log('The student has attended ' + maxAttendance + ' lectures.');
 }
+
 // 100/100 // Ivaylo Papazov
 
 bonusScoringSystem([
