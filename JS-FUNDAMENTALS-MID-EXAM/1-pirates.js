@@ -20,5 +20,5 @@ function pirates(days, dailyPlunder, target) {
     
 }
 
-pirates(5, 40, 100); // Ahoy! 154.00 plunder gained.
-pirates(10, 20, 380); // Collected only 36.29% of the plunder.
+pirates(5, 40, 100); 
+pirates(10, 20, 380); 
