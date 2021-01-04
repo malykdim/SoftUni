@@ -17,7 +17,9 @@ function numbers(input) {
         console.log(greater.slice(0, 5).join(' '));
     }
 }
+
 // 100/100
+
 numbers('10 20 30 40 50'); 
 numbers('5 2 3 4 -10 30 40 50 20 50 60 60 51'); 
 numbers('1'); 
