@@ -20,7 +20,7 @@ function solve(arr) {
     console.log(`You made ${cozonacsCount} cozonacs! Now you have ${coloredEggs} eggs and ${budget.toFixed(2)}BGN left.`);
 }
 
-// solve([ '20.50', '1.25' ]);
+solve([ '20.50', '1.25' ]);
 solve([ '15.75', '1.4' ]);
 
 // 100/100
