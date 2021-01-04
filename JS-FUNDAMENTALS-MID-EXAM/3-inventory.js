@@ -37,7 +37,9 @@ function inventory(input) {
     });
     console.log(inventory.join(', '));
 }
+
 // 100/100
+
 inventory(['Iron, Wood, Sword', 'Collect - Gold', 'Drop - Wood', 'Craft!']);
 inventory(['Iron, Sword', 'Drop - Bronze', 'Combine Items - Sword:Bow', 'Renew - Iron', 'Craft!']);
 inventory(['Iron, Sword', 'Combine Items - Wood:Bow', 'Craft!']);
