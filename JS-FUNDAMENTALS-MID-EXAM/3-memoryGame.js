@@ -34,7 +34,9 @@ function memoryGame(arr) {
         console.log(`Sorry you lose :(\n${sequence.join(' ')}`);
     }
 }
+
 // Deni // 100/100
+
 memoryGame([
     "1 1 2 2 3 3 4 4 5 5",
     "1 0",
