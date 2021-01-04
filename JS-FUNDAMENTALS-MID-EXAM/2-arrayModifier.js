@@ -28,7 +28,9 @@ function arrayModifier(input) {
     }
     console.log(numberArray.join(', '));
 }
+
 // 100/100
+
 arrayModifier([
     '23 -2 321 87 42 90 -123',
     'swap 1 3',
