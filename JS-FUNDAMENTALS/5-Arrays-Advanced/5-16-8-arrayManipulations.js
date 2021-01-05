@@ -20,6 +20,7 @@ function arrayManipulation(commands) {
                 break;
         } 
     }
+    
     console.log(arr.join(' '));
     
     function add(el) {
@@ -35,5 +36,7 @@ function arrayManipulation(commands) {
         arr.splice(index, 0, num);
     }
 }
+
 // 100/100
+
 arrayManipulation(['4 19 2 53 6 43', 'Add 3', 'Remove 2', 'RemoveAt 1', 'Insert 8 3']);

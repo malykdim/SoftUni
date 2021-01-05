@@ -8,8 +8,9 @@ function negativeOrPositive(input) {
         }
     }
     console.log(result.join('\n'));
-} // 100/100
+} 
 
+// 100/100
 
-negativeOrPositive([7, -2, 8, 9]); // -2 7 8 9
-negativeOrPositive([3, -2, 0, -1]); // -1 -2 3 0
+negativeOrPositive([7, -2, 8, 9]); 
+negativeOrPositive([3, -2, 0, -1]); 

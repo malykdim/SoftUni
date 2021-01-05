@@ -18,9 +18,7 @@
         userInput = input[index];
     }
 }
-login(['Acer','login','go','let me in','recA']);
-login(['momo','omom']);
-login(['sunny','rainy','cloudy','sunny','not sunny']);
+
 //100/100 */
 
 function login(arr){
@@ -38,7 +36,9 @@ function login(arr){
         } 
     }
 }
+
 login(['Acer','login','go','let me in','recA']);
 login(['momo','omom']);
 login(['sunny','rainy','cloudy','sunny','not sunny']);
+
 // 100/100 Deni

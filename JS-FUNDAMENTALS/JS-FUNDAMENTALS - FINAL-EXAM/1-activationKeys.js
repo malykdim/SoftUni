@@ -45,7 +45,9 @@ function activationKeys(input) {
     }
     
     console.log(`Your activation key is: ${rawKey}`);
-} // 100/100 Victor
+} 
+
+// 100/100 Victor
 
 activationKeys([
     'abcdefghijklmnopqrstuvwxyz',

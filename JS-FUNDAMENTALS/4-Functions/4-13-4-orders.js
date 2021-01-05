@@ -7,9 +7,12 @@ function orders(item, quantity) {
         case 'coke': price = 1.40; break;
         case 'snacks': price = 2.0; break;
     }
+    
     totalPrice = quantity * price;
     return totalPrice.toFixed(2);
 }
+
 // 100/100
+
 orders('water', 5);
 orders('coffee', 2);

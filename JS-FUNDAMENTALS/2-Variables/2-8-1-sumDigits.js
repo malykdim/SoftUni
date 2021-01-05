@@ -6,12 +6,9 @@ function sumDigits(n) {
     }
     console.log(sum);
 }
-sumDigits(245678); // 32
-sumDigits(97561); // 28
-sumDigits(543); // 12
+
+sumDigits(245678); 
+sumDigits(97561); 
+sumDigits(543); 
+
 // 100/100
-
-
-    // toString;
-    // for -> += char             // da obhodim vseki edin char i da syberem vseki edin ot elementite
-

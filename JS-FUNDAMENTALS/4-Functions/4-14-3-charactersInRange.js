@@ -1,4 +1,3 @@
-///////////////////// Deni //////////////////// 100/100
 function charactersInRange(a, b) {
     
     let firstCode = a.charCodeAt(0);
@@ -13,12 +12,8 @@ function charactersInRange(a, b) {
     return line;
 } 
 
+// 100/100 // Deni 
+
 console.log(charactersInRange('C', '#'));
-// charactersInRange('#', ':');
-// charactersInRange('C', '#');
-
-// transformirame simvolite v ascii code a -> 97
-// vnimavame koe e pyrvo
-// na edin red printirame vsichki simvoli mevdu dvete stojnosti
-
-// obratnoto na string.charCodeAt() e string.fromCharCode()
+charactersInRange('#', ':');
+charactersInRange('C', '#');

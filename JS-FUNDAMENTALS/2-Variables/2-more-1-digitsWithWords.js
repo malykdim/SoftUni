@@ -12,5 +12,7 @@ function digitsWithWords(str) {
         case 'zero': console.log(0); break;
     }
 }
+
 digitsWithWords('two');
+
 // 100/100

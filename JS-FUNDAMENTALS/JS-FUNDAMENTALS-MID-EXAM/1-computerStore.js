@@ -13,6 +13,7 @@ function computerStore(array) {
         }        
         input = array.shift();
     }
+    
     let finalPrice = 0;
     if (totalPrice === 0) {
         console.log("Invalid order!");
@@ -30,6 +31,7 @@ function computerStore(array) {
         console.log(`Total price: ${(finalPrice*0.9).toFixed(2)}$`);
     }
 }
+
 computerStore([
     '1050', 
     '200', 
@@ -38,7 +40,8 @@ computerStore([
     '18.50', 
     '16.86', 
     'special'
-    ]);
+]);
+
 computerStore([
     '1023', 
     '15', 
@@ -48,10 +51,10 @@ computerStore([
     '20', 
     '17.66', 
     '19.30', 'regular'
-    ]);
+]);
 computerStore([
     'regular'
-    ]);
+]);
     
 /* 
 Write a program that prints you a receipt for your new computer. 

@@ -10,6 +10,7 @@ function lastKNSequence(n, k) {
     }
     console.log(result.join(' '));
 } 
+
 // 100/100 Victor
 
 lastKNSequence(6, 3);

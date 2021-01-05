@@ -13,7 +13,9 @@ function piccolo(arr) {
     return Object.keys(parking).sort((a, b) => a.localeCompare(b)).join('\n');
     console.log(parking);
 }
+
 // Deni 100/100
+
 console.log(piccolo(['IN, CA2844AA',
 'IN, CA1234TA',
 'OUT, CA2844AA',

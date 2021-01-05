@@ -18,9 +18,10 @@ function simpleCalculator (numOne, numTwo, operator) {
             break;
     }
 }
-// 100/100
 
-simpleCalculator(5, 5, 'multiply'); //25
-simpleCalculator(40, 8, 'divide'); // 5
-simpleCalculator(12, 19, 'add'); // 31
-simpleCalculator(50, 13, 'subtract'); // 37
+simpleCalculator(5, 5, 'multiply'); 
+simpleCalculator(40, 8, 'divide'); 
+simpleCalculator(12, 19, 'add'); 
+simpleCalculator(50, 13, 'subtract'); 
+
+// 100/100

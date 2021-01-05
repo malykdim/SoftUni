@@ -3,4 +3,7 @@ function numbers1to5(parameter){
         console.log(i);
     } 
 }
-numbers1to5('argument');//100/100
+
+numbers1to5('argument');
+
+//100/100

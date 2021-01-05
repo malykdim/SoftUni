@@ -8,7 +8,10 @@ function sumOfOddNumbers(n){
     }
     console.log(`Sum: ${sum}`);
 }
-sumOfOddNumbers(7);//100/100
+
+sumOfOddNumbers(7);
+
+//100/100
 
 /* Victor
 function sumOfOddNumbers(n){

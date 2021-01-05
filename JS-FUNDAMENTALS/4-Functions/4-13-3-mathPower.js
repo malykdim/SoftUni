@@ -2,7 +2,6 @@ function mathPower(num, power) {
     let result = Math.pow(num, power);
     return result;
 }
-// 100/100 - moq
 
 function mathPower(base, exponent) {
     let result = 1;
@@ -11,6 +10,7 @@ function mathPower(base, exponent) {
     }
     console.log(result);
 }
+
 // Victor
 
 mathPower(2, 8); // 256

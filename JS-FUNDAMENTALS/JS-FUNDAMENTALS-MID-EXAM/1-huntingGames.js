@@ -31,12 +31,16 @@ function huntingGames(array) {
         }
         day++;
     }
+    
     if (days >= 0 && isLoss === false) {
         console.log(`You are ready for the quest. You will be left with - ${currentEnergy.toFixed(2)} energy!`);
     } else if (isLoss) {
         console.log(`You will run out of energy. You will be left with ${currentFood.toFixed(2)} food and ${currentWater.toFixed(2)} water.`);
     }
-} // 100/100
+} 
+
+// 100/100
+
 huntingGames([
     '10',     '7',      '5035.5',
     '11.3',   '7.2',    '942.3',

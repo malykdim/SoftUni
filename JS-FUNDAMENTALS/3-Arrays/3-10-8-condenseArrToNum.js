@@ -4,17 +4,16 @@ function condenseArrToNum(input) {
         for (let i = 0; i < input.length - 1; i++) {
             condensed[i] = Number(input[i]) + Number(input[i + 1]);
         }
+        
         input = condensed;
     }
 
     console.log(input[0]);
-} // 100/100
+} 
 
-condenseArrToNum([2, 10, 3]); // 25
-condenseArrToNum([5, 0, 4, 1, 2]); // 35
-condenseArrToNum([1]); // ok
+// 100/100
 
-/* function condenseArrToNum(input) {
+function condenseArrToNum(input) {
     if (input.length === 1) {
         console.log(input[0]);
         return;
@@ -26,9 +25,11 @@ condenseArrToNum([1]); // ok
     
     input.pop();
     condense(input);
-} // 100/100 */
+} 
 
-/* function condenseArrToNum(arr) {
+// 100/100 
+
+function condenseArrToNum(arr) {
     let num = [];
     for (let i = 0; i < arr.length; i++) {
         num[i] = Number(arr[i]);
@@ -40,14 +41,19 @@ condenseArrToNum([1]); // ok
             condense[i] = Number(num[i] + num[i + 1]);
 
         }
+        
         num = condense;
         condense = 0;
     }
     
     console.log(Number(num));
-} */ // 100/100
+}  
 
+// 100/100
 
+condenseArrToNum([2, 10, 3]); 
+condenseArrToNum([5, 0, 4, 1, 2]); 
+condenseArrToNum([1]); 
 
 /*
 Write a program which receives an array of numbers
@@ -65,5 +71,4 @@ then we sum again all adjacent elements and obtain {12+13} = {25}.
 ⦁	Sum the numbers from nums[] to condensed[]:
 ⦁	condensed[i] = nums[i] + nums[i+1]
 ⦁	nums[] = condensed[]
-
 */

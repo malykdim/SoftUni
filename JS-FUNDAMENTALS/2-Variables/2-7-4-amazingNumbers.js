@@ -7,10 +7,10 @@ function amazingNumbers(number){
     let result = sum.toString().includes('9');
     console.log(result ? `${num} Amazing? True` : `${num} Amazing? False`);
 }
+
 amazingNumbers(1233);
 amazingNumbers(999);
 
-/* Victor
 function amazingNumbers(number){
     let numAsString = number.toString();
     let sum = 0;
@@ -24,4 +24,3 @@ function amazingNumbers(number){
         console.log(`${num} Amazing? False`);
     }
 } 
-*/

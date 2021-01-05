@@ -34,4 +34,5 @@ function printCertificate(grade, namesArr) {
         return result;
     }
 }
+
 printCertificate(5.5, ['John', 'Smith']);

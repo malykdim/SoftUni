@@ -11,14 +11,14 @@ function palindrome(arr) {
                 break;
             }
         }
+        
         result += isPolindrome + '\n';
     }
+    
     return result;
 }
-// 100/100 /* Deni */
-console.log(palindrome([123, 323, 421, 121])); // false true false true
-console.log(palindrome([32, 2, 232, 1010])); // false true true false
 
-// разглеждаме числата едно по едно
-// за всяко число проверяваме дали е полиндром
-// принтираме съответно false или true
+// 100/100 /* Deni */
+
+console.log(palindrome([123, 323, 421, 121])); 
+console.log(palindrome([32, 2, 232, 1010])); 

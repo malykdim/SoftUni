@@ -8,6 +8,7 @@ function pascalCaseSplitter(str) {
             cap = i;
         }
     }
+    
     result.push(str.substring(cap, str.length));
     console.log(result.join(', '));
 }

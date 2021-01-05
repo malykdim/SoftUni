@@ -16,4 +16,5 @@ function solve(month){
         default: console.log('Error!'); break;
     }
 } 
-solve("2");//
+
+solve("2");

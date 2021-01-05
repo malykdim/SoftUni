@@ -28,7 +28,9 @@ function partyTime(arr) {
     
     console.log(list['VIP'].length + list['regular'].length);
     console.log(list['VIP'].join('\n') + '\n' +list['regular'].join('\n'));
-} // 100/100 Deni
+} 
+
+// 100/100 Deni
 
 // partyTime(['7IK9Yo0h',
 // '9NoBUajQ',

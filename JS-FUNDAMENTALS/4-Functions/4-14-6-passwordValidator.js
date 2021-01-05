@@ -8,6 +8,7 @@ function passValidator(pass) {
             input.push(char);
         }
     }
+    
     function length(input) {
         let isValid = false;
         if (input.length >= 6 && input.length <= 10) {
@@ -15,6 +16,7 @@ function passValidator(pass) {
         }
         return isValid;
     }
+    
     function consist(input) {
         let isValid = true;
         for (const char of input) {
@@ -24,8 +26,10 @@ function passValidator(pass) {
                 isValid = false;
             }
         }
+        
         return isValid;
     }
+    
     function digitCheck(input) {
         let isValid = false;
         let countDigits = 0;
@@ -34,11 +38,13 @@ function passValidator(pass) {
                 countDigits++;
             }
         }
+        
         if (countDigits >= 2) {
             isValid = true;
         }
         return isValid;
     }
+    
     if (length(input) === true && consist(input) === true && digitCheck(input) === true) {
         console.log("Password is valid");
     }
@@ -52,12 +58,13 @@ function passValidator(pass) {
         console.log("Password must have at least 2 digits");
     }
 } 
-// 100/100 // moe 
+
+// 100/100 
+
 console.log(passValidator('logIn'));
 console.log(passValidator('MyPass123'));
 console.log(passValidator('Pa$s$s'));
 
-/* 
 function passValidator(pass) {
     function isValidLength(pass) {
         if (pass.length >= 6 && pass.length <= 10) {
@@ -66,6 +73,7 @@ function passValidator(pass) {
             return "Password must be between 6 and 10 characters";
         }
     }
+    
     function isValidChars(pass) {
         let isValidPass = true;
         for (let i = 0; i < pass.length; i++) {
@@ -83,6 +91,7 @@ function passValidator(pass) {
         }
         return isValidPass ? true : "Password must consist only of letters and digits";
     }
+    
     function atLeastTwoDigits(pass) {
         let digits = 0;
         for (let i = 0; i < pass.length; i++) {
@@ -109,8 +118,5 @@ function passValidator(pass) {
     }
     return result.join('\n');
 } 
-*/
+
 // 100/100 // Deni 
-// console.log(passValidator('logIn'));
-// console.log(passValidator('MyPass123'));
-// console.log(passValidator('Pa$s$s'));

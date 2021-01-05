@@ -15,11 +15,12 @@ function division(num){
     }
     
 }
+
 division(30);//100/100 The number is divisible by 10
 division(15);//100/100 The number is divisible by 3
 division(12);//100/100 The number is divisible by 6
 division(1643);//100/100 Not divisible
-// проверка за прости числа? кои са простите числа?
+
 /* 
 You will be given a number and you have to return whether that number is divisible by the following numbers: 2, 3, 6, 7, and 10. 
 You should always take the bigger division. 

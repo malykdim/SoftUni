@@ -13,8 +13,7 @@ function lastNumber(number){
         case 0: console.log('zero'); break;
     }
 }
+
 lastNumber(512);
 lastNumber(1);
 lastNumber(1643);
-
-//ok
