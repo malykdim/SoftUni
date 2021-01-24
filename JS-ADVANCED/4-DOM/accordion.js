@@ -8,3 +8,12 @@ function toggle() {
 }
 
 // 100/100
+
+function toggle() {
+    const button = document.querySelector('.button');
+    const extra = document.querySelector('#extra');
+    
+    const isHidden = extra.style.display === '' || extra.style.display === 'none';
+    extra.style.display = isHidden ? 'block' : 'none';
+    button.textContent = isHidden ? 'Less' : 'More';    
+}
