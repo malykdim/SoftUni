@@ -1,4 +1,4 @@
-function solve() {
+function searchTable() {
    document.querySelector('#searchBtn').addEventListener('click', onClick);
    
    const rows = document.querySelectorAll('tbody tr');
