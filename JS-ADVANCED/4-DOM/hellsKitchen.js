@@ -1,4 +1,4 @@
-function solve() {
+function hellsKitchen() {
 	document.querySelector('#btnSend').addEventListener('click', onClick);
 	const input = document.querySelector('#inputs>textarea');
 	const bestRestaurantP = document.querySelector('#bestRestaurant>p');
