@@ -1,5 +1,5 @@
 function attachGradientEvents() {
-    function attachGradientEvents() {
+    
     let gradient = document.getElementById('gradient');
     gradient.addEventListener('mousemove', gradientMove);
     gradient.addEventListener('mouseout', gradientOut);
@@ -11,7 +11,7 @@ function attachGradientEvents() {
     }
     
     function gradientOut(event) {
-        document.getElementById('result').textContent = " ";
+        document.getElementById('result').textContent = "";
     }
-}
+
 }
