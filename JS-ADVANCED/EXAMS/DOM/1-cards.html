@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        div.card {
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+            width: 50px;
+            height: 80px;
+            background: #eee;
+            border: 3px solid #ddd;
+            border-radius: 5px;
+            font-size: 26px;
+            text-align: center;
+            line-height: 75px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <div id="main">
+        
+    </div>
+    <script>
+        function cardDeckBuilder(selector) {
+            let suits = {
+                'C': '\u2663', // clubs - unicodes
+                'D': '\u2666', // diamonds
+                'H': '\u2665', // hearts
+                'S': '\u2660' // spades 
+            }
+            let cards = [];
+            return {
+                addCard(face, suit) {
+                    // $(selector).append($('<div>').addClass('card').text(`${face} ${suits[suit]}`).click(reverse));
+                    $(selector).append($('<div class="card">').text(`${face} ${suits[suit]}`).click(reverse));
+                    cards.push({face: face, suit: suits[suit]});  
+                }
+            };
+            function reverse() {
+                cards.reverse();
+                $(selector).empty();
+                for (const card of cards) {
+                    $(selector).append($('<div class="card">').text(`${card.face} ${card.suit}`).click(reverse));
+                }
+            }
+        }
+    </script>
+    <script>
+        $(function() {
+            let builder = cardDeckBuilder("#main");
+            builder.addCard("10", "D");
+            builder.addCard("K", "S");
+            builder.addCard("Q", "H");
+            builder.addCard("4", "C");
+        });
+    </script>
+</body>
+</html>
+<!-- '\u2663' -> ; '\u2666' -> diamonds; '\u2665' -> heart; '\u2660' -> spades; -->
